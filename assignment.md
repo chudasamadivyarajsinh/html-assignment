@@ -31,25 +31,35 @@ attributes provide additional information about an html element. they are includ
 
  **void elements :-**
  void elements in html are elements that do not have closing tags and cannot contain any child elements or text content.these elements are self-contained and are used for specific purpose like inserting images,line breaks,or meta-information in a webpage.since they are self-closing,they are typically written with a single tag.
+ ### example:-
  ```html
 <html>
-    <head>
-        <title>welcome</title>
+  <head>
+    <title> example of void element</title>
     </head>
     <body>
-      <img height="500px" width="500pxs"
-         src="E:\images\mahindra-thar-2020-left-front-three-quarter34.jpeg">
-         <hr>
-          <input type="text" name="" id="" placeholder="enter your name"><br>
-            <input type="text" name="" id="" placeholder="enter your email"><br>
-            <input type="text" name="" id="" placeholder="enter your password"><br>
-            <input type="color" name="" id=""><br>
-
+      <img src="image.jpg">
+      <br>
+      <hr>
+      <input type="text" name="firstname">
+      <link rel="stylesheet" href="styles.css">
+      </body>
+      </html>
 ```
  
  ### (4) what are html entities?
  #### ans.
  html entities are special codes used to represent characters that have  specific meanings in html or are not easily typed on a keyboard.these entities are usedful for displaying reserved characters in html content without causing confusion in the html structure.they are also used for displaying special characters and symbols that are not available on a standard keyboard.
+ ### example:-
+```html
+&lt;
+&#65;
+&#x03a9;
+&copy;
+&euro;
+```
+
+
 ### (5) What are different types of lists in HTML?
 
 #### ans.
@@ -123,6 +133,7 @@ unorderd lists are used to create a list of items that do not need to be in a sp
 ```
 
 ### (6) What is the ‘class’ attribute in HTML?
+### ans.
 In HTML, the class attribute is used to specify one or more class names for an element. It is a way to apply styling and behavior to multiple elements without needing to repeat the styles in each individual element. Here are some key points about the class attribute:
 ```html
 <div class="container">
@@ -200,11 +211,77 @@ Process of Creation	|It may be made using the HTML table> tag but changes the ty
 Number of Cells	| It concerns just one cell. |	It is exposed to several cells (more than one) at once.
 Default Value | 	The default value for cell padding is 1.|	Cellspacing has a default value of 2.
 Effectiveness|	When compared to cell spacing, it is quite effective. It is, therefore, very commonly used.|	Comparatively speaking, it is less efficient than cell padding.
+### cell padding example:-
+```html
+<html>
+<head>
+    <title>Cell Padding Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        td {
+            border: 1px solid black;
+            padding: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Table with Cell Padding</h2>
+    <table>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+```
+### cell spacing example:-
+```html
+<html>
+  <head>
+ <title>Cell Spacing Example</title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 20px;
+            width: 50%;
+        }
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table with Cell Spacing</h2>
+    <table>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
 
 
 ### (10) How can we club two or more rows or columns into a single row column in an HTML table?
 
 ### ans.
+To combine two or more rows or columns into a single row or column in an HTML table, you can use the rowspan and colspan attributes of the < td> (table data) or < th> (table header) elements.
+
+
 
 ```html
 <html>
@@ -271,6 +348,7 @@ Examples of block elements - < p>,< div>,< hr> . |	Examples of inline elements -
 ### (12) How to create a Hyperlink in HTML?
 
 #### ans.
+Creating a hyperlink in HTML is straightforward. The < a> (anchor) tag is used to define a hyperlink, which links to another webpage or a different location within the same page. The href attribute specifies the URL of the page the link goes to.
 
 ```html
 <html>
@@ -413,18 +491,14 @@ Example
 ```html
 <html>
 <body>
-	<section>
-		<h1>Geeksforgeeek: Section 1</h1>
-		<p>Content of section 1</p>
-	</section>
-	<section>
-		<h1>GeeksforGeeks: Section 2</h1>
-		<p>Content of section 2</p>
-	</section>
-	<section>
-		<h1>GeeksforGeeks: Section 3</h1>
-		<p>Content of section 3</p>
-	</section>
+    <section>
+    <h1> to <h6>
+    <p>
+    <header>
+    <footer>
+    <nav>
+    <hr>
+    <br>
 </body>
 </html>
 ```
