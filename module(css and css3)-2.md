@@ -35,10 +35,7 @@ css offers several advantags for web devlopment:
 #### Q.4 Name a few CSS style components 
  #### ans.  
  css style components are the building blocks that define how html elements are presented on a webpage.
- **Example:-**
- ```html
-
- ```
+ 
 
 #### Q.5 What do you understand by CSS opacity? 
  #### ans.
