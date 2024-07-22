@@ -458,25 +458,9 @@ p {
  (2) potential performance impact
  (3) versioning and caching challengs
 
- **Example:-**
- ```html
-
- ```
-
-
-
  #### Q.17 What is the meaning of the CSS selector?
  #### ans.
  imagine css selectors like spotlights in a play. they out specific  actors (html elements) on stage (webpage) so you can style them with constumes and props (css properties).
-
-
- **Example:-**
- ```html
-
- ```
-
-
-
 
  #### Q.18 What are the media types allowed by CSS?
  #### ans.
