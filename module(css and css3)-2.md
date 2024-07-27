@@ -460,7 +460,7 @@ p {
 
  #### Q.17 What is the meaning of the CSS selector?
  #### ans.
- imagine css selectors like spotlights in a play. they out specific  actors (html elements) on stage (webpage) so you can style them with constumes and props (css properties).
+ CSS selectors are patterns used to select and style HTML elements on a web page. They form the first part of a CSS rule and define which elements will be affected by the styles specified in the rule. Selectors can target elements based on various criteria, such as their type, class, ID, attributes, and their relationships with other elements in the document.
 
  #### Q.18 What are the media types allowed by CSS?
  #### ans.
