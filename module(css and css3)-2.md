@@ -34,7 +34,14 @@ css offers several advantags for web devlopment:
 
 #### Q.4 Name a few CSS style components 
  #### ans.  
- css style components are the building blocks that define how html elements are presented on a webpage.
+ * Selectors: Identify HTML elements to style.
+* Properties: Define style attributes.
+* alues: Specify settings for properties.
+* Units: Measurement types.
+* Media Queries: Enable responsive design .
+* Pseudo-classes: Styles based on element state .
+* Pseudo-elements: Target specific parts of an element .
+* Layout Models: Flexbox and Grid for responsive layouts.
  
 
 #### Q.5 What do you understand by CSS opacity? 
@@ -306,14 +313,16 @@ p {
 
  #### Q.12  How to maintain the CSS specifications?
  #### ans.
- * use consistent naming conventions.
- * organize css files
- * write modular , reusable css
- * use a css preprocessor
- * implement a css linter
- * documents the purpose and usage
- * regularly review and refactor
- * use version control
+ * Consistency: Use a consistent naming convention for classes and IDs.
+* Modularity: Break down your CSS into smaller, reusable components.
+* Documentation: Comment your code to explain complex styles or layouts.
+* Organization: Structure your CSS files logically, grouping related styles together.
+* Preprocessors: Use CSS preprocessors like SASS or LESS to manage large stylesheets.
+* Best Practices: Follow best practices such as BEM (Block Element Modifier) for structuring your CSS.
+* Linting: Use CSS linters to enforce coding standards and catch errors.
+* Responsive Design: Implement responsive design techniques to ensure your styles work across different devices.
+* Version Control: Use version control systems like Git to track changes and collaborate with others.
+* Testing: Regularly test your CSS in different browsers and devices to ensure compatibility
 
  #### Q.13 What are the ways to integrate CSS as a web page? 
  #### ans.
