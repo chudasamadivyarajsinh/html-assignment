@@ -43,6 +43,7 @@ A bootstrap container is a layout element that helps structures content.
 
 #### (3) What are the default Bootstrap text settings?
 #### ans.
+Bootstrap's default text settings provide various styles, sizes, and formatting utilities for typography.
 * alignment 
 * text weight
 * text transform
