@@ -1,4 +1,46 @@
-#### (1)Make a card using Tailwind css 
+(1) What are the advantages of Bootstrap?
+ans.
+advantages:-
+
+responsive design
+pre-built components
+easy customization
+cross-browser compatibility
+consistent design
+strong community support
+
+(2)What is a Bootstrap Container, and how does it work?
+ans.
+A bootstrap container is a layout element that helps structures content.
+
+.container : responsive, with fixed width based on screen size.
+.container-fluid : stretches to full width of the screen.
+example:-
+
+<html>
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<title>Bootstrap Container Example</title>
+</head>
+<body>
+
+  <!-- Fixed-width container -->
+  <div class="container">
+    <h1>Fixed-width Container</h1>
+    <p>This container adjusts its width based on the screen size.</p>
+  </div>
+
+  <!-- Full-width container -->
+  <div class="container-fluid">
+    <h1>Full-width Container</h1>
+    <p>This container always takes up the full width of the screen.</p>
+  </div>
+
+</body>
+</html>
+
+
+#### (3)Make a card using Tailwind css 
 #### ans.
 ```html
 <html>
@@ -32,7 +74,7 @@
 ```
 
 
-#### (2) Create slider 
+#### (4) Create slider 
 #### ans.
 ```html
 <!DOCTYPE html>
@@ -71,7 +113,7 @@
 ```
 
 
-#### (3) Create table using Tailwind also apply effective color
+#### (5) Create table using Tailwind also apply effective color
 #### ans.
 ```html
 <!DOCTYPE html>
