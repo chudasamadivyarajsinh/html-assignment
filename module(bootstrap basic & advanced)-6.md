@@ -43,46 +43,7 @@ A bootstrap container is a layout element that helps structures content.
 
 #### (3) What are the default Bootstrap text settings?
 #### ans.
-Bootstrap's default text settings provide various styles, sizes, and formatting utilities for typography.
-* alignment 
-* text weight
-* text transform
-* text color
-* text decoration
-
-**example:-**
-```html
-<html>
-<head>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <title>Bootstrap Text Example</title>
-</head>
-<body>
-  <div class="container">
-    <!-- Text Alignment -->
-    <p class="text-left">This text is left aligned.</p>
-    <p class="text-center">This text is center aligned.</p>
-    <p class="text-right">This text is right aligned.</p>
-
-    <!-- Font Weight -->
-    <p class="font-weight-bold">This text is bold.</p>
-    <p class="font-weight-light">This text is light.</p>
-
-    <!-- Text Transform -->
-    <p class="text-uppercase">This text is uppercase.</p>
-    <p class="text-lowercase">THIS TEXT IS LOWERCASE.</p>
-    <p class="text-capitalize">this text is capitalized.</p>
-
-    <!-- Text Color -->
-    <p class="text-primary">This is primary text color.</p>
-    <p class="text-muted">This is muted text color.</p>
-
-    <!-- Text Decoration -->
-    <p class="text-decoration-none">This text has no decoration.</p>
-  </div>
-</body>
-</html>
-```
+bootstrap uses a default font-size of 16px, and its line-height is 1.428. the default font-family is "helvetica neue", HeLvetica , arial, sans-serif, in addition,all < p> elements have margin-top: 0 and margin-bottom:1rem (16px by default).
 
 #### (4) What do you know about the Bootstrap Grid System?
 #### ans.
